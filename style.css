@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image img{
+    height: 219px;
+width: 202px;
+margin: 30px 7px 40px 5px;
+}
+.container{
+    background-color: beige;
+padding: 10px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+border-radius: 10px;
+}
+button{
+    margin-top: 10px;
+width: 200px;
+height: 35px;
+border-radius: 20px;
+}
+p{
+    margin-bottom: 10px;
+margin-top: -10px;
+font-size: 25px;
+}
